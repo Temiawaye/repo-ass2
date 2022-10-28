@@ -7,43 +7,67 @@
 
 }
 
+*{
+    box-sizing: border-box;
+}
+
 body{
     background-color: black;
     margin: 0;
-    padding-right: 300px;
-    padding-left: 300px;
     font-family: 'abelregular';
 }
 
-#body{
-    background-color: red;
-   /* margin-right: 300px;
-    margin-left: 300px;*/
+#container{
+    width: 850px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
-#hd-image {
+header{
     background-image: url(../images/burger.jpg);
     background-size: cover;
     height: 55vh;
 }
+/* #body{
+    background-color: red;
+   margin-right: 300px;
+    margin-left: 300px;
+} */
+
+/* #hd-image {
+    background-image: url(../images/burger.jpg);
+    background-size: cover;
+    height: 55vh;
+} */
 
 /* #hd-image > img{
      width: 749px; 
 } */
 
-.mini-logo > img{
-    width: 90px;
+.logo{
+    width: 120px;
+    height: 120px;
     background-color: red;
-    border-radius: 50px;
+    /* border-radius: 50px;
     margin-left: 300px;
     margin-bottom: 0px;
-    padding-bottom: 0px;
-    position: relative;
-    bottom: 50px;
+    padding-bottom: 0px; */
+    position: absolute;
+    left: 350px;
+    top: -70px;
+    border-radius: 50%;
+    /* right: 5px; */
+    /* left: -200px; */
+    /* bottom: 50px; */
     
 }
 
-.rt-name1{
+.logo > img {
+    width: 100%;
+    height: auto;
+}
+
+.rt-name{
     text-align: center;
     background-image: url(../images/heading-bg.png);
     background-repeat: no-repeat;
@@ -52,13 +76,18 @@ body{
     font-family: 'abelregular';
     font-weight: normal;
     font-style: normal;
-    position: relative;
-    bottom: 65px;
+    /* position: relative; */
+    /* bottom: 65px; */
+    margin-bottom: 100px;
+    background-size: 500px 65px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 #table{
     width: 650px;
-    margin-left: 50px;
+    margin-left: 85px;
     color: white;
     position: relative;
     bottom: 60px;
@@ -72,14 +101,21 @@ body{
     background-image: url(../images/footer-food.png);
     background-repeat: no-repeat;
     background-size: 200px;
-    background-position-x: 600px;
-    background-position-y: 250px;
+    background-position-x: 700px;
+    background-position-y: 450px;
+    background-color: red;
+    position: relative;
+}
+
+.section-padding{
+    padding: 30px 10px;
 }
 
 #form-section{
     background-image: url(../images/food-plate2.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+    padding: 30px 10px;
 }
 
 .h2{
@@ -103,18 +139,24 @@ body{
 }
 
 #form{
-    margin-left: 25px;
+    margin-left: 70px;
     position: relative;
     /* top: 100px; */
     color: white;
 }
 
-.form1 > input{
+.form-padding{
+    margin-top: 0px;
+}
+
+.form1 > input,.form1 > select{
     background: transparent;
     border-radius: 12px;
     width: 700px;
-    height: 25px;
+    height: 50px;
     color: white;
+    padding: 10px;
+    border: 1px solid white;
 }
 
 .form1 > ::placeholder{
@@ -147,11 +189,13 @@ body{
     height: 30px;
     border-radius: 12px;
     border: none;
-    margin-left: 25px;
+    margin-left: 70px;
     position: relative;
     bottom: 50px;
 }
 
 .overlay{
     background: rgba(0, 0, 0, 0.7);
+    background-size: contain;
+    
 }

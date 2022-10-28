@@ -8,18 +8,20 @@
 	<title></title>
 </head>
 <body>
-	<div id="body">
-		<div id="hd-image">
-			<!-- <img src="images/burger.jpg"> -->
-		</div>
-		<div>
-			<div class="mini-logo">
-				<img src="images/logo-head.png">
-			</div>
-			<div>
-				<h2 class="rt-name1">Food Menus Pastas</h2>
-			</div>
-			<div id="menusection">
+	<main id="container">
+		<header>
+			
+		</header>
+		
+		
+			
+			<div id="menusection" class="section-padding">
+				<div class="logo">
+					<img src="images/logo-head.png">
+				</div>
+				<div class="rt-name">
+					<h2>Food Menus Pastas</h2>
+				</div>
 				<table id="table"> 
 					<tr class="row">  
 						<td>BEANS PORRIDGE</td>
@@ -58,10 +60,13 @@
 					</tr>
 				</table>
 			</div>
-			<div id="form-section">
-				<div class="overlay">
+			<div id="form-section" >
+				<div class="overlay form-padding" >
 					<h2 class="h2">Food Menu Pastas</h2>
-					<h2 class="rt-name2">Food Menu Pastas</h2>
+					<div class="rt-name">
+						<h2>Food Menu Pastas</h2>
+					</div>
+					
 					<form id="form" method="post">
 						<div class="form1">
 							<input type="text" required name="Username" placeholder="Enter Fullname">
@@ -71,8 +76,8 @@
 							<input type="text" required name="Username" placeholder="Enter Fullname">
 						</div>
 						<br>
-						<div>
-							<select class="form2" name="location">
+						<div class="form1">
+							<select name="location">
 								<option value="Facebook">Lagos</option>
 								<option value="Instagram">Abuja</option>
 								<option value="Linkedin">Ogun</option>
@@ -92,8 +97,10 @@
 					<button class="button">Submit<i class="fa-regular fa-paper-plane"></i></button>
 				</div>	
 			</div>
-		</div>
-	</div>
+		
+	    </div>
+	</main>
+	
 
 </body>
 </html>

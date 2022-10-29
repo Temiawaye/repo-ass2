@@ -115,7 +115,7 @@ header{
     background-image: url(../images/food-plate2.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    padding: 30px 10px;
+    /* padding: 30px 10px; */
 }
 
 .h2{
@@ -139,20 +139,21 @@ header{
 }
 
 #form{
-    margin-left: 70px;
+    /* margin-left: 70px; */
     position: relative;
-    /* top: 100px; */
+    /* top: 12px; */
     color: white;
 }
 
 .form-padding{
-    margin-top: 0px;
+    /* margin-top: 150px; */
+    padding: 30px;
 }
 
 .form1 > input,.form1 > select{
     background: transparent;
     border-radius: 12px;
-    width: 700px;
+    width: 800px;
     height: 50px;
     color: white;
     padding: 10px;
@@ -178,18 +179,18 @@ header{
 .form3{
     background: transparent;
     border-radius: 12px;
-    width: 700px;
+    width: 800px;
     height: 150px;
     color: white;
 }
 
 .button{
     background-color: yellow;
-    width: 700px;
+    width: 800px;
     height: 30px;
     border-radius: 12px;
     border: none;
-    margin-left: 70px;
+    /* margin-left: 70px; */
     position: relative;
     bottom: 50px;
 }
